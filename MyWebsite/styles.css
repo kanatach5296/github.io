@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif; /* フォントの設定 */
+    line-height: 1.6; /* 行間の設定 */
+    margin: 0; /* マージンのリセット */
+    padding: 0; /* パディングのリセット */
+    background-color: #f4f4f4; /* 背景色の設定 */
+    background-image: url('tuini.JPG'); /* 背景画像の指定 */
+    background-size: cover; /* 画像をカバーする */
+    background-position: center; /* 画像の位置 */
+}
+
+header {
+    background: #35424a; /* ヘッダーの背景色 */
+    color: #ffffff; /* ヘッダーの文字色 */
+    padding: 20px 0; /* ヘッダーの上下パディング */
+    text-align: center; /* 中央揃え */
+}
+
+nav ul {
+    list-style-type: none; /* リストのスタイルを解除 */
+    padding: 0; /* パディングのリセット */
+}
+
+nav ul li {
+    display: inline; /* リストアイテムを横並びに */
+    margin-right: 20px; /* 右マージン */
+}
+
+nav a {
+    color: #ffffff; /* リンクの文字色 */
+    text-decoration: none; /* リンクの下線を解除 */
+}
+
+main {
+    padding: 20px; /* メインコンテンツのパディング */
+}
+
+.profile-image {
+    max-width: 150px; /* プロフィール画像の最大幅 */
+    border-radius: 50%; /* 画像を丸くする */
+}
+
+footer {
+    text-align: center; /* フッターの中央揃え */
+    padding: 10px 0; /* フッターの上下パディング */
+    background: #35424a; /* フッターの背景色 */
+    color: #ffffff; /* フッターの文字色 */
+    position: relative; /* 相対位置 */
+    bottom: 0; /* 下端に配置 */
+    width: 100%; /* 幅を100%に */
+}
